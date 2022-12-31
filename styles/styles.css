@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
+/* CSS HEX */
+:root {
+    --imperial-red: #e63946ff;
+    --honeydew: #f1faeeff;
+    --powder-blue: #a8dadcff;
+    --celadon-blue: #457b9dff;
+    --prussian-blue: #1d3557ff;
+}
+
+* {
+    font-family: 'Proza Libre', sans-serif;
+    background-color: var(--honeydew);
+}
+
+body {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color: var(--celadon-blue);
+}
+
+a {
+    text-decoration: none;
+    color: var(--prussian-blue);
+}
+
+a:hover {
+    color: var(--celadon-blue)
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.indexMenu {
+    list-style: none;
+}
+
+.indexImages img {
+    width: 32%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.specialNote {
+    color: var(--imperial-red);
+}
